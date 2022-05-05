@@ -4,7 +4,7 @@
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.0 |
-| <a name="requirement_oci"></a> [oci](#requirement\_oci) | 4.72.0 |
+| <a name="requirement_oci"></a> [oci](#requirement\_oci) | 4.73.0 |
 
 ## Modules
 
@@ -14,7 +14,7 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [oci_limits_quotas.quotas](https://registry.terraform.io/providers/oracle/oci/4.72.0/docs/data-sources/limits_quotas) | data source |
+| [oci_limits_quotas.quotas](https://registry.terraform.io/providers/oracle/oci/4.73.0/docs/data-sources/limits_quotas) | data source |
 
 ## Inputs
 
