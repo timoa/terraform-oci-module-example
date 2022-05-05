@@ -24,20 +24,22 @@ variable "tenancy_ocid" {
   default     = null # Set with TF_VAR_tenancy_ocid environment variable on ~/.zprofile or ~/.bash_profile
 }
 
-#############################
-# Auth
-#############################
-
-variable "oci_auth" {
+variable "user_ocid" {
   type        = string
-  description = "Authentication method"
-  default     = "SecurityToken"
+  description = "User OCID"
+  default     = null # Set with TF_VAR_user_ocid environment variable on ~/.zprofile or ~/.bash_profile
 }
 
-variable "oci_config_file_profile" {
+variable "fingerprint" {
   type        = string
-  description = "The profile to use for the Oracle Cloud Infrastructure provider"
-  default     = "DEFAULT"
+  description = "Fingerprint"
+  default     = null # Set with TF_VAR_fingerprint environment variable on ~/.zprofile or ~/.bash_profile
+}
+
+variable "private_key" {
+  type        = string
+  description = "Private Key content"
+  default     = null # Set with TF_VAR_private_key environment variable on ~/.zprofile or ~/.bash_profile
 }
 
 #############################
