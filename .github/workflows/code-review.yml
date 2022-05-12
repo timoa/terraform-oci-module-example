@@ -9,6 +9,13 @@ jobs:
     name: TFLint
     runs-on: ubuntu-latest
 
+    env:
+      TF_VAR_tenancy_ocid: ${{secrets.OCI_TENANCY_OCID}}
+      TF_VAR_user_ocid: ${{secrets.OCI_USER_OCID}}
+      TF_VAR_fingerprint: ${{secrets.OCI_FINGERPRINT}}
+      TF_VAR_private_key: ${{secrets.OCI_PRIVATE_KEY}}
+      TF_VAR_region: ${{secrets.OCI_REGION}}
+
     steps:
       - name: Checkout
         uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3.0.2
@@ -34,6 +41,13 @@ jobs:
   tfsec:
     name: TFSec
     runs-on: ubuntu-latest
+
+    env:
+      TF_VAR_tenancy_ocid: ${{secrets.OCI_TENANCY_OCID}}
+      TF_VAR_user_ocid: ${{secrets.OCI_USER_OCID}}
+      TF_VAR_fingerprint: ${{secrets.OCI_FINGERPRINT}}
+      TF_VAR_private_key: ${{secrets.OCI_PRIVATE_KEY}}
+      TF_VAR_region: ${{secrets.OCI_REGION}}
 
     steps:
       - name: Checkout
