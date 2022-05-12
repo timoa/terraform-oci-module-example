@@ -1,3 +1,10 @@
+## [0.2.3](https://github.com/timoa/terraform-module-oci-example/compare/v0.2.2...v0.2.3) (2022-05-12)
+
+
+### Bug Fixes
+
+* **cicd:** add missing env vars on the code review jobs for TFLint and TFSec ([88cbc65](https://github.com/timoa/terraform-module-oci-example/commit/88cbc65e7041e99b3ffbcd25408ad58bcc9e97fc))
+
 ## [0.2.2](https://github.com/timoa/terraform-module-oci-example/compare/v0.2.1...v0.2.2) (2022-05-12)
 
 
