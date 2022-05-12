@@ -1,3 +1,10 @@
+## [0.2.2](https://github.com/timoa/terraform-module-oci-example/compare/v0.2.1...v0.2.2) (2022-05-12)
+
+
+### Bug Fixes
+
+* **output:** fix the empty output by listing the OCI regions instead of the quotas ([49816cc](https://github.com/timoa/terraform-module-oci-example/commit/49816ccf265a43a6805bc3d952614c5241e2f594))
+
 ## [0.2.1](https://github.com/timoa/terraform-module-oci-example/compare/v0.2.0...v0.2.1) (2022-05-12)
 
 # [0.2.0](https://github.com/timoa/terraform-module-oci-example/compare/v0.1.0...v0.2.0) (2022-05-05)
