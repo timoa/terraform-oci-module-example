@@ -1,3 +1,3 @@
-data "oci_limits_quotas" "quotas" {
-  compartment_id = var.tenancy_ocid
-}
+
+# List Available OCI Regions
+data "oci_identity_regions" "regions" {}
