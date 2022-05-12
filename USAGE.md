@@ -14,7 +14,7 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [oci_limits_quotas.quotas](https://registry.terraform.io/providers/oracle/oci/4.72.0/docs/data-sources/limits_quotas) | data source |
+| [oci_identity_regions.regions](https://registry.terraform.io/providers/oracle/oci/4.72.0/docs/data-sources/identity_regions) | data source |
 
 ## Inputs
 
@@ -33,5 +33,5 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_quotas"></a> [quotas](#output\_quotas) | Return the list of quotas per resources |
+| <a name="output_regions"></a> [regions](#output\_regions) | Return the list of all OCI regions |
 <!-- END_TF_DOCS -->
