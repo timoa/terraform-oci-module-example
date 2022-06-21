@@ -1,3 +1,10 @@
+## [0.2.4](https://github.com/timoa/terraform-module-oci-example/compare/v0.2.3...v0.2.4) (2022-06-21)
+
+
+### Bug Fixes
+
+* **cicd:** update the label name for the dependencies ([53fbc07](https://github.com/timoa/terraform-module-oci-example/commit/53fbc077f2a7340bc8c2038de82e0f081d08354f))
+
 ## [0.2.3](https://github.com/timoa/terraform-module-oci-example/compare/v0.2.2...v0.2.3) (2022-05-12)
 
 
