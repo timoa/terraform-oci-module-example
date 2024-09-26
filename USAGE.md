@@ -27,7 +27,7 @@ No modules.
 | <a name="input_fingerprint"></a> [fingerprint](#input\_fingerprint) | Fingerprint | `string` | `null` | no |
 | <a name="input_private_key"></a> [private\_key](#input\_private\_key) | Private Key content | `string` | `null` | no |
 | <a name="input_region"></a> [region](#input\_region) | Default Region | `string` | `"uk-london-1"` | no |
-| <a name="input_labels"></a> [labels](#input\_labels) | Default labels to associate to these resources | `map(string)` | <pre>{<br>  "businessunit": "mycompany",<br>  "team": "devops",<br>  "terraform": "true"<br>}</pre> | no |
+| <a name="input_labels"></a> [labels](#input\_labels) | Default labels to associate to these resources | `map(string)` | <pre>{<br/>  "businessunit": "mycompany",<br/>  "team": "devops",<br/>  "terraform": "true"<br/>}</pre> | no |
 
 ## Outputs
 
